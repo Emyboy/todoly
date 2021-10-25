@@ -9,4 +9,4 @@ export default {
     decorators: [withKnobs],
 };
 
-export const Basic = () => <Button>Button</Button>;
+export const Basic = () => <Button><span>Default Button</span></Button>;
