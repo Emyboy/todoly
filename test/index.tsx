@@ -18,7 +18,7 @@ import store from "@redux/store";
  * please visit https://testing-library.com/docs/react-testing-library/setup
  */
 
-export const AllTheProviders = ({ children }) => {
+export const AllTheProviders = ({ children }: any) => {
     const queryClient = new QueryClient();
 
     return (

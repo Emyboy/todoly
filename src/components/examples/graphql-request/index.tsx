@@ -25,7 +25,7 @@ export const GraphQLRequestExample: React.FC = () => {
         <div>
             <div>Last 2 Space-X Launches</div>
             <div>
-                {launches.launchesPast.map((val) => (
+                {/* {launches.launchesPast.map((val) => (
                     <div key={`key-${val.mission_name}`}>
                         <img src={val.links.mission_patch_small} />
                         <div>
@@ -42,7 +42,7 @@ export const GraphQLRequestExample: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                ))}
+                ))} */}
             </div>
         </div>
     );

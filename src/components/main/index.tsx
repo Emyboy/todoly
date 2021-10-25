@@ -9,7 +9,9 @@ export const Main: React.FC = () => {
             <Container>
                 <h1>superplate</h1>
                 <p>The frontend boilerplate with superpowers!</p>
-                <Button>Docs</Button>
+                <Button>
+                    <span>Docs</span>
+                </Button>
             </Container>
         </Wrapper>
     );
